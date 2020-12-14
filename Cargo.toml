@@ -1,0 +1,17 @@
+[package]
+name = "snake_remix"
+version = "0.1.0"
+authors = ["lampinen"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ggez = "0.5"
+#nalgebra = {version = "0.18", features = ["mint"] }
+# Has to be the same version of mint that nalgebra uses here.
+mint = "0.5"
+rand="0.7"
+
+#[dev-dependencies]
+#rand = "0.7"
